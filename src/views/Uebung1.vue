@@ -4,12 +4,13 @@
             <Aufgabe-muster :msg="aufgabe.name" ></Aufgabe-muster> 
             <div v-for="unteraufgabe in aufgabe.unteraufgaben" :key="unteraufgabe.beschreibung">
                 <Aufgabe-muster :beschreibung="unteraufgabe.beschreibung"
-                :loesung="unteraufgabe.loesung"></Aufgabe-muster>
+                :loesung="unteraufgabe.loesung"
+                :loesungspath="unteraufgabe.loesungspath"></Aufgabe-muster>
             </div>
         </div>
+
     </div>
 </template>
-
 <script>
 import AufgabeMuster from '@/components/AufgabeMuster.vue'
 import Uebung1 from '@/uebungen/uebung1/Uebung1.js'
