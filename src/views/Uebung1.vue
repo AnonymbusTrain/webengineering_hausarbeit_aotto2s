@@ -5,10 +5,12 @@
             <div v-for="unteraufgabe in aufgabe.unteraufgaben" :key="unteraufgabe.beschreibung">
                 <Aufgabe-muster :beschreibung="unteraufgabe.beschreibung"
                 :loesung="unteraufgabe.loesung"
-                :loesungspath="unteraufgabe.loesungspath"></Aufgabe-muster>
+                :slug="unteraufgabe.slug"
+                :image="unteraufgabe.image"></Aufgabe-muster>
+                
             </div>
         </div>
-
+        
     </div>
 </template>
 <script>

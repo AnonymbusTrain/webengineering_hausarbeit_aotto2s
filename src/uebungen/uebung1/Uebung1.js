@@ -104,10 +104,10 @@ export default {
             id: 4,
             unteraufgaben: [
                 {
-                    image: "https://kaul.inf.h-brs.de/we/assets/img/wireframe01.jpg",
+                    image: "wireframe01.jpg",
                     beschreibung: "Mit welchem HTML-Code (ohne CSS, nur mit HTML-Tags) kann man diesen Wireframe exakt \
                     nachbilden?",
-                    loesungspath: "Uebung1/Aufgabe4"
+                    slug: "Uebung1/Aufgabe4"
                 }
             ]
         }

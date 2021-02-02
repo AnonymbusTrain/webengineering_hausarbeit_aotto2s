@@ -1,9 +1,11 @@
 <template>
     <div class="aufgabemuster">
-        <h3>{{ msg }} </h3>
+        <h3> {{ msg }} </h3>
         <p class="beschreibung"> {{ beschreibung }} </p>
-        <p class="loesung"> {{ loesung }}</p>
-        <router-link :to="loesungspath"> {{ loesungspath }} </router-link>
+        <img v-if="image" :src="require(`@/assets/${image}`)" :alt="msg" width="500" height="600">
+        <h4 v-if="loesung || slug"> Lösung: </h4>
+        <p class="loesung" > {{ loesung }} </p>
+        <router-link :to="slug"> {{ slug }} </router-link>
         <br>
     </div>
 </template>
@@ -16,12 +18,14 @@ export default {
         msg: String,
         beschreibung: String,
         loesung: String,
-        loesungspath: String,
+        slug: String,
+        image: String
     }
 }
 </script>
 
 <style scoped>
+
 p.beschreibung {
     color: red;
     max-width: 50%;
@@ -33,5 +37,6 @@ p.loesung {
     max-width: 50%;
     font-size: 17px;
 }
+
 
 </style>

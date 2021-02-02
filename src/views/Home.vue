@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <UebungMuster msg="1. Einführung"/>
+    <UebungMuster msg="1. Einführung" uebungPath="/uebung1"/>
+    <UebungMuster msg="2. CSS 1. Teil" uebungPath="/uebung2"/>
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
     <div class="uebungmuster">
         <h1> <span> {{ msg }} </span></h1>
-        <router-link to="/uebung1"><p>Lösung der Übungsaufgabe</p></router-link>
+        <router-link :to="uebungPath"><p>Lösung der Übungsaufgabe</p></router-link>
     </div>
 </template>
 
@@ -9,7 +9,8 @@
 export default {
     name: "Ueberschrift",
     props: {
-        msg: String
+        msg: String,
+        uebungPath: String
     }
 }
 </script>
