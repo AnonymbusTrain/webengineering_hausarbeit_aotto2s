@@ -1,5 +1,5 @@
 <template>
-    <div class="uebung1">
+    <div class="uebung3">
         <div v-for="aufgabe in aufgaben" :key="aufgabe.name">
             <Aufgabe-muster :msg="aufgabe.name" ></Aufgabe-muster> 
             <div v-for="unteraufgabe in aufgabe.unteraufgaben" :key="unteraufgabe.beschreibung">
@@ -14,16 +14,16 @@
 </template>
 <script>
 import AufgabeMuster from '@/components/AufgabeMuster.vue'
-import Uebung1 from '@/uebungen/uebung1/Uebung1.js'
+import Uebung3 from '@/uebungen/uebung3/Uebung3.js'
 
 export default {
-    name: 'Uebung1',
+    name: 'Uebung3',
     components: {
         AufgabeMuster
     },
     data() {
         return {
-            aufgaben: Uebung1.aufgaben
+            aufgaben: Uebung3.aufgaben
         }
     }
 }
