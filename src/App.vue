@@ -1,7 +1,9 @@
 <template>
   <div id="app">
+    <div class="header">
     <div id="nav">
-      <router-link to="/">Home</router-link>
+        <router-link to="/">Home</router-link>
+      </div>
     </div>
     <router-view/>
   </div>
@@ -27,5 +29,15 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: 3px;
+  background: white;
+  color: white;
+  font-size: 20px;
+  border-bottom: 1px solid #231422;
 }
 </style>

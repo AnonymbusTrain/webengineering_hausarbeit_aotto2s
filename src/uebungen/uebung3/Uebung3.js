@@ -6,7 +6,7 @@ export default {
            unteraufgaben: [
                 {
                     beschreibung: "mit HTML und CSS Flexbox folgendes responsive Webdesign \n \
-nach der Desktop-First-Strategie!",
+nach der Desktop-First-Strategie implementieren!",
                     loesung: "<!DOCTYPE html> \n \
 \n \
 <html> \n \
