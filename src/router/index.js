@@ -43,7 +43,7 @@ const routes = [
   {
     path: '/uebung7',
     name: 'Uebung7',
-    component: () => import(/* webpackChunkName: "uebung7" */ '../views/Uebung1.vue')
+    component: () => import(/* webpackChunkName: "uebung7" */ '../views/Uebung7.vue')
   },
   {
     path: '/uebung8',
@@ -53,12 +53,12 @@ const routes = [
   {
     path: '/uebung9',
     name: 'Uebung9',
-    component: () => import(/* webpackChunkName: "uebung9" */ '../views/Uebung1.vue')
+    component: () => import(/* webpackChunkName: "uebung9" */ '../views/Uebung9.vue')
   },
   {
     path: '/uebung10',
     name: 'Uebung10',
-    component: () => import(/* webpackChunkName: "uebung10" */ '../views/Uebung1.vue')
+    component: () => import(/* webpackChunkName: "uebung10" */ '../views/Uebung10.vue')
   }
 ]
 

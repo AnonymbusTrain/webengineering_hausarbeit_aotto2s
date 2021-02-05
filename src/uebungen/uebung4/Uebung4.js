@@ -8,7 +8,7 @@ export default {
           beschreibung:
             "Schreiben Sie eine Funktion identity(), die ein Argument als Parameter entgegen nimmt und \n \
 dieses als Ergebnis zurück gibt.",
-          loesung: " \n \
+          loesung: "\
 function identity(x) { \n \
     return x; \n \
 }",
@@ -17,7 +17,7 @@ function identity(x) { \n \
           beschreibung:
             "Schreiben Sie eine Funktion identity_function(), die ein Argument als Parameter entgegen nimmt \n \
 und eine Funktion zurück gibt, die dieses Argument zurück gibt.",
-          loesung: " \n \
+          loesung: "\
 function identity_function(x) { \n \
     function identity(x){ \n \
         return x; \n \
@@ -28,7 +28,7 @@ function identity_function(x) { \n \
         {
           beschreibung:
             "Schreiben Sie zwei binäre Funktionen add und mul, die Summe und Produkt berechnen.",
-          loesung: " \n \
+          loesung: "\
 function add(a,b) { \n \
     return a+b; \n \
 } \n \
@@ -40,7 +40,7 @@ function mul(a,b){ \n \
           beschreibung:
             "Schreiben Sie eine Addier-Funktion addf(), so dass addf(x)(y) genau x + y zurück gibt. \n \
 (Es haben also zwei Funktionsaufrufe zu erfolgen. addf(x) liefert eine Funktion, die auf y angewandt wird.)",
-          loesung: " \n \
+          loesung: "\
 function addf(x) { \n \
     return function(y){ \n \
         return x + y; \n \
@@ -52,7 +52,7 @@ function addf(x) { \n \
             "Schreiben Sie eine Funktion applyf(), die aus einer binären Funktion wie add(x,y) eine Funktion \n \
 addfberechnet, die mit zwei Aufrufen das gleiche Ergebnis liefert, z.B. addf = applyf(add); addf(x)(y) \n \
 soll add(x,y) liefern. Entsprechend applyf(mul)(5)(6) soll 30 liefern, wenn mul die binäre Multiplikation ist.",
-          loesung: " \n \
+          loesung: "\
 function applyf(func) { \n \
     return function(x){ \n \
         return function(y){ \n \
@@ -71,7 +71,7 @@ function applyf(func) { \n \
                  beschreibung: "Schreiben Sie die Prototypen Person und Auto in JavaScript, so dass jede Person weiß, \n \
 welche Autos sie besitzt. Schreiben Sie eine Funktion conflict(), die feststellt, ob ein Auto von mehr \n \
 als einer Person besessen wird.",
-                 loesung: " \n \
+                 loesung: "\
 function Person(vorname, nachname) { \n \
     this.vorname = vorname; \n \
     this.nachname = nachname; \n \
@@ -133,7 +133,7 @@ console.log(conflict(a1)); \n \
 die ersten 2000 Fibonacci-Zahlen 0,1,1,2,3,5,8,13,... auf der Konsole mit console.log() aus. \n \n \
 Achten Sie auf Performanz: Berechnen Sie jeden Fibonacci-Wert nur einmal. Speichern Sie zu diesem Zweck \n \
 jede bereits berechnete Fibonacci-Zahl in einer Tabelle.",
-                 loesung: " \n \
+                 loesung: "\
 <!DOCTYPE html> \n \
 <html lang=\"en\"> \n \
 <head> \n \
@@ -202,7 +202,7 @@ Das ist die 1477te Zahl in der Fibonacci-Folge, wenn 0 die erste und 1 die Zweit
              {
                  beschreibung: "Wechseln Sie zu BigInt, um alle 2000 Fibonacci-Zahlen korrekt anzuzeigen. Geben Sie hier HTML- und \n \
 JavaScript-Code zusammen ein:",
-                 loesung: " \n \
+                 loesung: "\
 <!DOCTYPE html> \n \
 <html lang=\"en\"> \n \
 <head> \n \

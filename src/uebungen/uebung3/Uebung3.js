@@ -7,8 +7,8 @@ export default {
                 {
                     beschreibung: "mit HTML und CSS Flexbox folgendes responsive Webdesign \n \
 nach der Desktop-First-Strategie implementieren!",
-                    loesung: "<!DOCTYPE html> \n \
-\n \
+                    loesung: "\
+<!DOCTYPE html> \n \
 <html> \n \
 <head> \n \
 <style> \n \
@@ -85,7 +85,8 @@ nach der Desktop-First-Strategie implementieren!",
                 {
                   beschreibung: "Implementieren Sie das gleiche responsive Webdesign wie in Aufgabe 3.1 allerdings mit Grid \n \
 und der Mobile-First-Strategie! Vermeiden Sie diesmal außerdem das Erscheinen von Scrollbars.",
-                  loesung: "<!DOCTYPE html> \n \
+                  loesung: "\
+<!DOCTYPE html> \n \
 <html> \n \
 <head> \n \
 <style> \n \
@@ -157,7 +158,8 @@ und der Mobile-First-Strategie! Vermeiden Sie diesmal außerdem das Erscheinen v
                {
                    beschreibung: "Implementieren Sie folgende Landing Page responsiv mit Grid Layout. Vermeiden Sie außerdem das \n \
 Erscheinen von Scrollbars so weit wie möglich.",
-                   loesung: "<!DOCTYPE html> \n \
+                   loesung: "\
+<!DOCTYPE html> \n \
 <html> \n \
 <head> \n \
 <style> \n \

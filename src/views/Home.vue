@@ -1,7 +1,8 @@
 <template>
   <div class="home">
 
-    <h1>Lösungen zu den Aufgaben</h1>
+    <h1>Lösungen für die Aufgaben</h1>
+    <br>
     <UebungMuster msg="1. Einführung" uebungPath="/uebung1"/>
     <UebungMuster msg="2. CSS 1. Teil" uebungPath="/uebung2"/>
     <UebungMuster msg="3. CSS 2. Teil" uebungPath="/uebung3"/>

@@ -106,7 +106,8 @@ Browser das Bild auszusuchen, was am besten zu der aktuellen Ansicht/Gerät pass
                 {
                     beschreibung: "Mit welchem HTML-Code (ohne CSS, nur mit HTML-Tags) kann man diesen Wireframe exakt nachbilden?",
                     image: "wireframe01.jpg",
-                    loesung: "<!DOCTYPE html>\n \
+                    loesung: "\
+<!DOCTYPE html>\n \
 <html> \n \
 <head> \n \
 <title>Page Title</title> \n \

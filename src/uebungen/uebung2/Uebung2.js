@@ -11,7 +11,8 @@ export default {
     3. div a:link[href*='h-brs'] \n \
     4. nav > a:hover::before \n \
     5. ul#primary-nav  li.active",
-                    loesung: "1. 1 + 1 +1 + 10 + 10 = 23 \n \
+                    loesung: "\
+1. 1 + 1 +1 + 10 + 10 = 23 \n \
 2. 1 + 1 + 10 = 12 \n \
 3. 1 + 1 + 10 + 10 = 22 \n \
 4. 1 + 1 + 10 + 1 = 13 \n \
@@ -24,7 +25,8 @@ export default {
     3. #ab0978 \n \
     4. rgb(127,255,33) \n \
     5. rgba(255,127,33,0.8)",
-                    loesung: "1. (0°,0%,100%) \n \
+                    loesung: "\
+1. (0°,0%,100%) \n \
 2. (0°,0%,0%) \n \
 3. (319°, 90.0%, 35.3%) \n \
 4. (95°, 100%, 56.5%) \n \
@@ -39,7 +41,8 @@ export default {
                 {
                     beschreibung: "Mit welchem HTML- und CSS-Code kann man diesen Wireframe exakt nachbilden?",
                     image: "survey_form.png",
-                    loesung: "<html> \n \
+                    loesung: "\
+<html> \n \
 <head> \n \
     <style> \n \
     input { \n \
