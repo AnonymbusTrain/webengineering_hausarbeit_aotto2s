@@ -33,6 +33,7 @@
 
 .header {
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   padding: 3px;
   background: white;
